@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class  HelloWorldService {
-    public static  HelloWorld getHelloWorld() {
+    public  HelloWorld getHelloWorld() {
 
         return new HelloWorld();
     }

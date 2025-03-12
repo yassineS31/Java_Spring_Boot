@@ -1,8 +1,13 @@
 package com.example.hello.model;
 
+import com.example.hello.service.LivreService;
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class HelloWorld {
 
-    private int value=4;
+    private int value;
+    @Autowired
+    private LivreService livreService;
 
     // Getter
     public int getValue() {
